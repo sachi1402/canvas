@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#can{
+    background-color:#ffffff;
+
+
+}
+.btns{
+    display: flex;
+    background-color: indianred;
+}
+.btns>*{
+ flex-grow: 1;
+ color:coral;
+ padding: 2px;
+ z-index: 200;
+}
+.clr{
+    cursor: pointer;
+    border: none;
+    display: block;
+    background-color:teal;
+   
+}
+.erz{
+    cursor: pointer;
+    border: none;
+    display: block;  
+    background-color:teal;
+   
+}
+.penz{
+    cursor: pointer;
+    border: none;
+    display: block;
+    background-color:black;
+   
+}
+#clor{
+    cursor: pointer;
+    border: none;
+    flex-grow: 0;
+    display: block;
+    background-color:teal;
+    
+}
+
+#sz{
+    cursor: pointer;
+    border: none;
+    display: block;
+    background-color:teal;
+    
+}
